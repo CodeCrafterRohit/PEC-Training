@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Moon+Dance&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    width: 100vw;
+    height: 70px;
+    border: 1px solid gray;
+    background-color: rgb(218, 215, 215);
+    box-shadow: 0px 0px 3px black;
+}
+#logo {
+    width: 100px;
+    height: 70px;
+    margin-left: 20px;
+}
+nav {
+    display: flex;
+
+}
+.navlinks {
+    width: 600px;
+    height: 70px;
+    /* border: 1px solid blue; */
+    margin-left: 700px;
+}
+ul {
+    margin-left: 5px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+.herosection {
+    width: 100vw;
+    height: 400px;
+    border: 1px solid gray;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+    color: white;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+h3 {
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
