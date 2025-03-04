@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Moon+Dance&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #F7F4ED;
+    font-family: "Montserrat", sans-serif;
+}
+.navbarcontainer {
+    width: 100vw;
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 300px;
+    height: 69px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mediumlogo {
+    width: 120px;
+    height: 30px;
+}
+.navlinks {
+    width: 600px;
+    height: 69px;
+    /* border: 1px solid blue; */
+    margin-right: 100px;
+}
+ul {
+    width: 600px;
+    height: 69px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li {
+    list-style: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+li:nth-child(5) {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+section {
+    width: 100vw;
+    height: 500px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side {
+    width: 60vw;
+    height: 500px;
+    /* border: 1px solid green; */
+}
+.right-side {
+    width: 30vw;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-image: url(./assets/Medium_Side_image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+h1 {
+    font-size: 80px;
+    padding: 100px 50px 20px 80px;
+    line-height: 80px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 50px 20px 80px;
+}
+button {
+    margin-left: 80px;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 30px;
+}

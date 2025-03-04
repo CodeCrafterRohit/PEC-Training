@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 600px;
+        height: 300px;
+        border: 1px solid red;
+        background-color: red;
+        margin: 50px auto;
+        display: flex;
+        /* flex-direction: column; */
+      }
+      .child {
+        width: 100px;
+        height: 100px;
+        border: 1px solid white;
+        background-color: blue;
+        color: white;
+      }
+      h1 {
+        text-align: center;
+      }
+      #parent1 {
+        justify-content: start;
+        align-items: start;
+      }
+      #parent2 {
+        justify-content: center;
+        align-items: center;
+      }
+      #parent3 {
+        justify-content: end;
+        align-items: end;
+      }
+      #parent4 {
+        justify-content: space-between;
+      }
+      #parent5 {
+        justify-content: space-evenly;
+      }
+      #parent6 {
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Start</h1>
+    <div class="parent" id="parent1">
+      <div class="child" id="child1">Child-1</div>
+      <div class="child" id="child2">Child-2</div>
+      <div class="child" id="child3">Child-3</div>
+      <div class="child" id="child4">Child-4</div>
+      <div class="child" id="child5">Child-5</div>
+    </div>
+    <h1>Center</h1>
+    <div class="parent" id="parent2">
+      <div class="child" id="child1">Child-1</div>
+      <div class="child" id="child2">Child-2</div>
+      <div class="child" id="child3">Child-3</div>
+      <div class="child" id="child4">Child-4</div>
+      <div class="child" id="child5">Child-5</div>
+    </div>
+    <h1>end</h1>
+    <div class="parent" id="parent3">
+      <div class="child" id="child1">Child-1</div>
+      <div class="child" id="child2">Child-2</div>
+      <div class="child" id="child3">Child-3</div>
+      <div class="child" id="child4">Child-4</div>
+      <div class="child" id="child5">Child-5</div>
+    </div>
+    <h1>Space-between</h1>
+    <div class="parent" id="parent4">
+      <div class="child" id="child1">Child-1</div>
+      <div class="child" id="child2">Child-2</div>
+      <div class="child" id="child3">Child-3</div>
+      <div class="child" id="child4">Child-4</div>
+      <div class="child" id="child5">Child-5</div>
+    </div>
+    <h1>Space-evenly</h1>
+    <div class="parent" id="parent5">
+      <div class="child" id="child1">Child-1</div>
+      <div class="child" id="child2">Child-2</div>
+      <div class="child" id="child3">Child-3</div>
+      <div class="child" id="child4">Child-4</div>
+      <div class="child" id="child5">Child-5</div>
+    </div>
+    <h1>Space-around</h1>
+    <div class="parent" id="parent6">
+      <div class="child" id="child1">Child-1</div>
+      <div class="child" id="child2">Child-2</div>
+      <div class="child" id="child3">Child-3</div>
+      <div class="child" id="child4">Child-4</div>
+      <div class="child" id="child5">Child-5</div>
+    </div>
+  </body>
+</html>

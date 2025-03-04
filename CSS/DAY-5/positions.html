@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 200px;
+            border: 1px solid blue;
+        }
+        #box1 {
+            /* Each and every element has default position is static */
+            position: static;
+            left: 200px;
+        }
+        #box2 {
+            position: relative;
+            left: 400px;
+            top: 100px;
+            /* left: 30px; */
+        }
+        #box3 {
+            position: relative;
+            bottom: 200px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box" id="box1">BOX-1</div>
+    <div class="box" id="box2">BOX-2</div>
+    <div class="box" id="box3">BOX-3</div>
+  </body>
+</html>
