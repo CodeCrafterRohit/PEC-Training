@@ -1,0 +1,53 @@
+let data = [
+  {
+    id: 101,
+    name: "john",
+    age: 20,
+    skills: ["HTML", "CSS", "JS", "Tailwind CSS"],
+    personalDetails: {
+      address: "Main Street HN-3",
+      city: "London",
+    },
+  },
+  {
+    id: 101,
+    name: "john",
+    age: 20,
+    skills: ["HTML", "CSS", "JS", "Tailwind CSS"],
+    personalDetails: {
+      address: "Main Street HN-3",
+      city: "London",
+    },
+  },
+  {
+    id: 101,
+    name: "john",
+    age: 20,
+    skills: ["HTML", "CSS", "JS", "Tailwind CSS"],
+    personalDetails: {
+      address: "Main Street HN-3",
+      city: "London",
+    },
+  },
+  {
+    id: 101,
+    name: "john",
+    age: 20,
+    skills: ["HTML", "CSS", "JS", "Tailwind CSS"],
+    personalDetails: {
+      address: "Main Street HN-3",
+      city: "London",
+    },
+  },
+  {
+    id: 101,
+    name: "john",
+    age: 20,
+    skills: ["HTML", "CSS", "JS", "Tailwind CSS"],
+    personalDetails: {
+      address: "Main Street HN-3",
+      city: "London",
+    },
+  },
+];
+export default data;
