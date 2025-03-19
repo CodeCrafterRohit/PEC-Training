@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Greet2 = () => {
   return (
     <div>
-        <h1>Hello this msg coming from greet-2</h1>
+      <h1>Hello this msg coming from greet-2</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Greet2
+export default Greet2;
