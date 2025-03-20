@@ -5,6 +5,9 @@ import EventWithParams from "./EventWithParams";
 import Experssion from "./Experssion";
 import FinalMsg from "./FinalMsg";
 import Form from "./Form";
+import Form1 from "./Form1";
+import Form2 from "./Form2";
+import IfElseRender from "./IfElseRender";
 import InlineEvent2 from "./InlineEvent2";
 import JSXRule3 from "./JSXRule3";
 import List from "./List";
@@ -15,6 +18,9 @@ import ParentComponent from "./ParentComponent";
 import ReactFragment from "./ReactFragment";
 import Rule4 from "./Rule4";
 import Rule56 from "./Rule56";
+import ShortCircuit from "./ShortCircuit";
+import TernaryRender from "./TernaryRender";
+import Theme from "./Theme";
 
 let App = () => {
   return (
@@ -36,7 +42,13 @@ let App = () => {
       {/* <Form/> */}
       {/* <Counter/> */}
       {/* <CounterWithState/> */}
-      <NameStateChange />
+      {/* <NameStateChange /> */}
+      {/* <IfElseRender/> */}
+      {/* <TernaryRender/> */}
+      {/* <ShortCircuit/> */}
+      {/* <Theme /> */}
+      {/* <Form1 /> */}
+      <Form2/>
     </div>
   );
 };
