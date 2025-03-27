@@ -1,6 +1,4 @@
-{
-  "Andaman and Nicobar Islands": ["Port Blair"],
-  "Haryana": [
+[
     "Faridabad",
     "Gurgaon",
     "Hisar",
@@ -37,9 +35,7 @@
     "Mahendragarh",
     "Ratia",
     "Rania",
-    "Sarsod"
-  ],
-  "Tamil Nadu": [
+    "Sarsod",
     "Chennai",
     "Coimbatore",
     "Madurai",
@@ -151,9 +147,7 @@
     "Sivagiri",
     "Punjaipugalur",
     "Padmanabhapuram",
-    "Thirupuvanam"
-  ],
-  "Madhya Pradesh": [
+    "Thirupuvanam",
     "Indore",
     "Bhopal",
     "Jabalpur",
@@ -235,9 +229,7 @@
     "Rau",
     "Mhowgaon",
     "Vijaypur",
-    "Narsinghgarh"
-  ],
-  "Jharkhand": [
+    "Narsinghgarh",
     "Dhanbad",
     "Ranchi",
     "Jamshedpur",
@@ -264,36 +256,30 @@
     "Mihijam",
     "Patratu",
     "Lohardaga",
-    "Tenu dam-cum-Kathhara"
-  ],
-  "Mizoram": ["Aizawl", "Lunglei", "Saiha"],
-  "Nagaland": [
+    "Tenu dam-cum-Kathhara",
+    "Aizawl",
+    "Lunglei",
+    "Saiha",
     "Dimapur",
     "Kohima",
     "Zunheboto",
     "Tuensang",
     "Wokha",
-    "Mokokchung"
-  ],
-  "Himachal Pradesh": [
+    "Mokokchung",
     "Shimla",
     "Mandi",
     "Solan",
     "Nahan",
     "Sundarnagar",
     "Palampur",
-    "Kullu"
-  ],
-  "Tripura": [
+    "Kullu",
     "Agartala",
     "Udaipur",
     "Dharmanagar",
     "Pratapgarh",
     "Kailasahar",
     "Belonia",
-    "Khowai"
-  ],
-  "Andhra Pradesh": [
+    "Khowai",
     "Visakhapatnam",
     "Vijayawada",
     "Guntur",
@@ -376,9 +362,7 @@
     "Puttur",
     "Renigunta",
     "Rajam",
-    "Srisailam Project (Right Flank Colony) Township"
-  ],
-  "Punjab": [
+    "Srisailam Project (Right Flank Colony) Township",
     "Ludhiana",
     "Patiala",
     "Amritsar",
@@ -432,10 +416,8 @@
     "Qadian",
     "Sujanpur",
     "Mukerian",
-    "Talwara"
-  ],
-  "Chandigarh": ["Chandigarh"],
-  "Rajasthan": [
+    "Talwara",
+    "Chandigarh",
     "Jaipur",
     "Jodhpur",
     "Bikaner",
@@ -512,9 +494,7 @@
     "Mandawa",
     "Pindwara",
     "Mandalgarh",
-    "Takhatgarh"
-  ],
-  "Assam": [
+    "Takhatgarh",
     "Guwahati",
     "Silchar",
     "Dibrugarh",
@@ -539,9 +519,7 @@
     "Mangaldoi",
     "Silapathar",
     "Mariani",
-    "Marigaon"
-  ],
-  "Odisha": [
+    "Marigaon",
     "Bhubaneswar",
     "Cuttack",
     "Raurkela",
@@ -575,9 +553,7 @@
     "Soro",
     "Malkangiri",
     "Rairangpur",
-    "Tarbha"
-  ],
-  "Chhattisgarh": [
+    "Tarbha",
     "Raipur",
     "Bhilai Nagar",
     "Korba",
@@ -596,9 +572,7 @@
     "Tilda Newra",
     "Mungeli",
     "Manendragarh",
-    "Sakti"
-  ],
-  "Jammu and Kashmir": [
+    "Sakti",
     "Srinagar",
     "Jammu",
     "Baramula",
@@ -607,9 +581,7 @@
     "KathUrban Agglomeration",
     "Rajauri",
     "Punch",
-    "Udhampur"
-  ],
-  "Karnataka": [
+    "Udhampur",
     "Bengaluru",
     "Hubli-Dharwad",
     "Belagavi",
@@ -689,10 +661,11 @@
     "Mundargi",
     "Sadalagi",
     "Piriyapatna",
-    "Adyar"
-  ],
-  "Manipur": ["Imphal", "Thoubal", "Lilong", "Mayang Imphal"],
-  "Kerala": [
+    "Adyar",
+    "Imphal",
+    "Thoubal",
+    "Lilong",
+    "Mayang Imphal",
     "Thiruvananthapuram",
     "Kochi",
     "Kozhikode",
@@ -743,12 +716,14 @@
     "Panniyannur",
     "Guruvayoor",
     "Puthuppally",
-    "Panamattom"
-  ],
-  "Delhi": ["Delhi", "New Delhi"],
-  "Dadra and Nagar Haveli": ["Silvassa"],
-  "Puducherry": ["Pondicherry", "Karaikal", "Yanam", "Mahe"],
-  "Uttarakhand": [
+    "Panamattom",
+    "Delhi",
+    "New Delhi",
+    "Silvassa",
+    "Pondicherry",
+    "Karaikal",
+    "Yanam",
+    "Mahe",
     "Dehradun",
     "Hardwar",
     "Haldwani-cum-Kathgodam",
@@ -766,9 +741,7 @@
     "Pauri",
     "Nagla",
     "Sitarganj",
-    "Bageshwar"
-  ],
-  "Uttar Pradesh": [
+    "Bageshwar",
     "Lucknow",
     "Kanpur",
     "Firozabad",
@@ -886,9 +859,7 @@
     "Pukhrayan",
     "Obra",
     "Niwai",
-    "Mirzapur"
-  ],
-  "Bihar": [
+    "Mirzapur",
     "Patna",
     "Gaya",
     "Bhagalpur",
@@ -958,9 +929,7 @@
     "Maharajganj",
     "Silao",
     "Barh",
-    "Asarganj"
-  ],
-  "Gujarat": [
+    "Asarganj",
     "Ahmedabad",
     "Surat",
     "Vadodara",
@@ -1033,9 +1002,7 @@
     "Lathi",
     "Adalaj",
     "Chhapra",
-    "Gandhinagar"
-  ],
-  "Telangana": [
+    "Gandhinagar",
     "Hyderabad",
     "Warangal",
     "Nizamabad",
@@ -1075,12 +1042,13 @@
     "Yellandu",
     "Manuguru",
     "Kyathampalle",
-    "Nagarkurnool"
-  ],
-  "Meghalaya": ["Shillong", "Tura", "Nongstoin"],
-  "Himachal Praddesh": ["Manali"],
-  "Arunachal Pradesh": ["Naharlagun", "Pasighat"],
-  "Maharashtra": [
+    "Nagarkurnool",
+    "Shillong",
+    "Tura",
+    "Nongstoin",
+    "Manali",
+    "Naharlagun",
+    "Pasighat",
     "Mumbai",
     "Pune",
     "Nagpur",
@@ -1200,10 +1168,11 @@
     "Mhaswad",
     "Loha",
     "Nandgaon",
-    "Warud"
-  ],
-  "Goa": ["Marmagao", "Panaji", "Margao", "Mapusa"],
-  "West Bengal": [
+    "Warud",
+    "Marmagao",
+    "Panaji",
+    "Margao",
+    "Mapusa",
     "Kolkata",
     "Siliguri",
     "Asansol",
@@ -1249,4 +1218,4 @@
     "Srirampore",
     "Adra"
   ]
-}
+  
